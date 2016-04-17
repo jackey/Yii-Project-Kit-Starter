@@ -16,6 +16,10 @@
 
 参照另外开源项目 [YiiAPI-Framework](https://github.com/jackey/YiiAPI-Framework)
 
+### 日志系统
+
+日志系统支持多级别多类型多参数日志模式
+
 
 ### 支持微信 
 
