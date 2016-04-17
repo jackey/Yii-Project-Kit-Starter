@@ -12,6 +12,8 @@
 
 * API 调用客户端
 
+* ID 生成器
+
 ### REST 支持多版本同时上线
 
 参照另外开源项目 [YiiAPI-Framework](https://github.com/jackey/YiiAPI-Framework)
