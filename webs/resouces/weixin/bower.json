@@ -1,0 +1,11 @@
+{
+  "name": "Sucel-Weixin-Bo",
+  "description": "殊胜微信后台管理系统",
+  "version": "0.0.1",
+  "homepage": "http://weixin.sucel-it.com",
+  "license": "",
+  "private": true,
+  "dependencies": {
+    "jquery": "~2.1.4"
+  }
+}

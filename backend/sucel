@@ -1,0 +1,25 @@
+#!/usr/bin/env php
+<?php
+define('SUCELIT_PATH', realpath(dirname('./../../'))); // Sucel项目目录
+define('BASE_PATH', realpath(dirname(__FILE__))); // 当前项目目录
+defined('STDIN') or define('STDIN', fopen('php://stdin', 'r'));
+
+define('PROJECT_NAME', 'backend'); // 后台运行项目
+
+require_once dirname(__FILE__).'/env.php';
+require_once SUCELIT_PATH.'/common/bootstrap.php';
+require_once SUCELIT_PATH.'/framework/yii.php';
+
+$config = array(
+    'basePath'=> dirname(__FILE__),
+);
+
+$app = Yii::createConsoleApplication($config);
+$app->commandRunner->addCommands(YII_PATH.'/commands');
+$app->run();
+
+
+
+
+
+

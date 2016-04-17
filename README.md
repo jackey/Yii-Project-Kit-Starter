@@ -1,2 +1,6 @@
-# Yii-Project-Kit-Starter
-Kit starter for Yii 1.x project. 
+#### 顽主 WonJoy 后台系统(包括API, 官网, 后台管理,微信)
+
+##### 框架和依赖 
+
+
+* Yii
